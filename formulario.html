@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .columna {
+            flex-basis: 48%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset>
+        <div class="container">
+            <div class="columna">
+
+                <legend> Detalles de la foto 
+
+                <p style="text-align:center; color:red;"> Table </p>
+
+                <figcaption>Titulo</figcaption>
+                <textarea rows="1" cols="70"></textarea> <br />
+
+                <figcaption> Descripcion </figcaption>
+                <textarea rows="10" cols="70"></textarea> <br />
+                <br />
+                <figcaption> Continente </figcaption>
+                <select name="continente">
+                    <option value="Escoger continente ">Escoger continente</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europa">Europa</option>
+                    <option value="Norte America">Norte America</option>
+                    <option value="Sur Africa">Sur Africa</option>
+                </select>
+                <br />
+                <br />
+                <figcaption> País </figcaption>
+                <select name="País">
+                    <option value="País">País</option>
+                    <option value="Canada">Canada</option>
+                    <option value="México">México</option>
+                    <option value="Estados Unidos">Estados unidos</option>
+                </select>
+                <br />
+                <br />
+
+                <figcaption> Ciudad </figcaption>
+                <textarea rows="1" cols="70"></textarea> <br />
+
+                <p>
+                    Acepto la licencia Software <input type="checkbox" name="info" checked>
+                </p>
+
+
+                <figcaption> Califica esta foto </figcaption>
+                <textarea rows="1" cols="10"></textarea> <br />
+                <br />
+
+                Coleccion de color : <input type="color">
+                <br />
+                <br />
+
+                <input type="submit" value="Enviar"> <input type="submit" value="Limpiar">
+            </div>
+
+
+
+
+            <div class="columna">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <figcaption> Copyrigth? </figcaption>
+                <input type="radio" name="asignatura" value="Todos los derechos reservados"> Todos los derechos
+                reservados <br />
+                <input type="radio" name="asignatura" value="Creative Colomms">Creative Commons <br />
+                <br />
+
+
+                <figcaption> Licencias creative commons </figcaption>
+                <input type="checkbox" name="licencias" value="lic">Atribucion <br />
+                <input type="checkbox" name="licencias" value="lic">No comercial <br />
+                <input type="checkbox" name="licencias" value="lic">No hay trabajos derivativos <br />
+                <input type="checkbox" name="licencias" value="lic">Compartir por igual <br />
+                <br />
+                <br />
+                <br />
+
+
+                Fecha de toma: <input type="date"> <br />
+                <br />
+                <br />
+                <br />
+
+                Hora de toma:<input type="time"> <br />
+            </legend>
+            </div>
+        </div>
+
+    </fieldset>
+
+</body>
+
+</html>
